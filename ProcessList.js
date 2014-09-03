@@ -21,8 +21,7 @@ function Process() {
     };
 
     that.OnUpdate = function (msDelta) {
-        document.write("processed the data" + msDelta);
-        that.m_state = ProcessState.SUCEEDED;
+        //override this function with specific Process Code
     };
 
     that.OnSuccess = function () {
