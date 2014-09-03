@@ -11,7 +11,7 @@ var ProcessState = {
 };
 
 function Process() {
-	"use stric";
+	"use strict";
 	var that = this;
     that.m_state = ProcessState.UNITIALIZED;
     that.m_childProcess = "";
@@ -95,7 +95,7 @@ function Process() {
 };
 
 function ProcessList() {
-	"use stric";
+	"use strict";
 	var that = this;
     that.m_list = [];
 
